@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservations</title>
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/reservations.css">
 </head>
 <body>
     <header>
@@ -18,6 +19,34 @@
         </ul>
     </nav>
     </header>
+            <h1 id="reservations">Reservations</h1><br><br>
+            <div class="container">
+                <form action="action_page.php">
+            
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            
+                    <label for="country">When?</label>
+
+                    <input type="date" value="2023-02-01" /><br>
+                    <label for="country">Number of guests?</label>
+
+                    <select id="Guests" name="1-20">
+                        <option value="two_guests">2</option>
+                        <option value="four_gusts">4</option>
+                        <option value="six_guests">6</option>
+                    </select>
+            
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:10px"></textarea>
+            
+                    <input type="submit" value="Submit">
+            
+                </form>
+            </div>
     
     
 </body>
