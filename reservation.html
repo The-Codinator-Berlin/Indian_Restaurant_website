@@ -19,20 +19,38 @@
         </ul>
     </nav>
     </header>
-            <h1 id="reservations">Reservations</h1><br><br>
+            <h1 id="reservations">Reservations</h1>
+            <!-- <br><br> -->
             <div class="container-2">
                 <form action="action_page.php">
-            
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Typer your first name..">
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Type your last name.."><br><br>
-            
-                    <label for="date">When?</label><br>
-                    <input class="date" type="date" value="2023-02-01" /><br><br>
-                    <label for="time">What Time?</label><br>
-                    <input type="time"><br><br>
-                    <label for="country">Number of Guests?</label>
+                    <div class="res-items">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Typer your first name..">
+                    </div>
+                    <div class="res-items">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Type your last name..">
+                    </div>
+                    <div class="res-items">
+                        <label for="number">Phone Number</label>
+                        <input type="text" id="number" name="number" placeholder="+497630........">
+                    </div>
+                    <div class="res-items">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="Type your email here..">
+                    </div>
+                    <div class="res-items">
+                        <label for="date">When?</label><br>
+                        <input class="date" type="date" value="2023-02-01" />
+                    </div>
+                        <!-- <br><br> -->
+                    <div class="res-items">
+                        <label for="time">What Time?</label><br>
+                        <input type="time">
+                        <!-- <br><br> -->
+                    </div>
+                    <div class="res-items">
+                        <label for="country">Number of Guests?</label>
                     <select id="Guests" name="1-20">
                         <option value="two_guests">1</option>
                         <option value="two_guests">2</option>
@@ -46,28 +64,32 @@
                         <option value="four_gusts">10</option>
                         <option value="four_gusts">10+ please include in special requests</option>
                     </select>
-                    <label for="subject">Special Requests</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:60px"></textarea>
-            <div class="terms">
-                <h3>Terms & Conditions</h3>
-                <ol class="ol" style="list-style: none;">
-                    <li>You agree to pay me a million euro.</li>
-                    <li>You agree to give me your cat, because I like cats.
-                        <li>You agree my restaurant is amazing!</li>
-                        <li>You agree to share your information with me.</li>
-                </ol>
-                    <input class="check" type="checkbox" id="consent" name="consent" value="consent"></input>
-                    <label for="consent"><span class="give">I give my consent</span></label>
-                    <input class="sub" type="submit" value="Submit">
+                    </div>
+                    <div class="res-items">
+                        <label for="subject">Special Requests</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:70px" style="width:200px"></textarea>
+                    </div>
             </div>
-                <footer class="" footer">
+                    <div class="terms">
+                        <h3>Terms & Conditions</h3>
+                        <ol class="ol" style="list-style: none;">
+                            <li>You agree to pay me a million euro.</li>
+                            <li>You agree to give me your cat, because I like cats.
+                            <li>You agree my restaurant is amazing!</li>
+                            <li>You agree to share your information with me.</li>
+                        </ol>
+                        <input class="check" type="checkbox" id="consent" name="consent" value="consent"></input>
+                        <label for="consent"><span class="give">I give my consent</span></label>
+                        <input class="sub" type="submit" value="Submit">
+            
+                <footer class="footer">
                     <section class="cont">
                         <div class="item-1" style="list-style: none;">
                             <a
                                 href="https://www.instagram.com/sem/campaign/emailsignup/?campaign_id=13560899670&extra_1=s|c|547348927144|e|instagram%20%27|&placement=&creative=547348927144&keyword=instagram%20%27&partner_id=googlesem&extra_2=campaignid%3D13560899670%26adgroupid%3D126262456694%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-1321618851291%26loc_physical_ms%3D9061136%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAiAleOeBhBdEiwAfgmXf5dnCsigVxmzN5955WNERyv9BmdsyjzvpOZkSf-QFRU3WO_yk_3MNhoCDQAQAvD_BwE">Instagram</a>
                 
-                        </div>
-                        <div class="item-1.5" style="list-style: none;">
+                </div>
+                        <div style="list-style: none;">
                             <a href"#top">Back to the top</a>
                         </div>
                         <div class="item-2" style="list-style: none;">
@@ -78,8 +100,5 @@
                 </footer>
             
 
-            
-    
-    
 </body>
 </html>
