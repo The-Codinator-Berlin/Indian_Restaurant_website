@@ -8,7 +8,7 @@ body {
 }
 
 * {
-    background-color:#C4A77D;
+    background-color: #C4A77D;
     /* border-style: solid 5px #70877F; */
 }
 
@@ -69,6 +69,7 @@ h1 {
  }
 
  /* Link hover  */
+ @media only screen and (hover) {
 a:hover {
     color:#2F2963;
  }
@@ -115,4 +116,4 @@ a:hover {
 }
 
 
-
+  

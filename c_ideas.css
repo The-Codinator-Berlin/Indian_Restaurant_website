@@ -1,0 +1,28 @@
+
+/* Flexbox for video content  */
+.flex-container-1,.flex-container-2, .flex-container-3 {
+    padding: 1.3rem;
+    padding-top: 0;
+    margin: auto;
+    width: auto;
+    gap: 0.625rem;
+    height: 20.2rem;
+    display:flex;
+    flex-direction: row;
+    padding-left: 6rem;
+}
+
+.vid-1, .vid-2, .vid-3 {
+    height: auto;
+    width: auto;
+    justify-content: center;
+    border: 4px solid #70877F;
+}
+/* H6 heading  */
+.h-6 {
+    text-align: center;
+}
+/* Footer  */
+.footer {
+    padding-top: 2rem;
+}
