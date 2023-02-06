@@ -10,17 +10,21 @@
 </head>
 <body>
     <header>
+        <!-- Navbar  -->
         <nav>
-        <ul style="list-style: none;" class="container">
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="#Reservations">Reservations</a></li>
-            <li><a href="/c_ideas.html">Cooking ideas</a></li>
-            <li><a href="/contact.html">Contact</a></li>
-        </ul>
+        <div id="top" style="list-style: none;" class="container">
+            <a href="/index.html">Home</a>
+            <a href="#Reservations">Reservations</a>
+            <!-- Linking menu to specific part of the page from navbar link  -->
+            <a href="index.html#main_menu">Menu</a>
+            <a href="/c_ideas.html">Cooking ideas</a>
+            <a href="/contact.html">Contact</a>
+        </div>
     </nav>
     </header>
-            <h1 id="reservations">Reservations</h1>
-            <!-- <br><br> -->
+            <!-- H1 Heading  -->
+            <h1>Reservations</h1>
+            <!-- Flexbox container for inputs  -->
             <div class="container-2">
                 <form action="action_page.php">
                     <div class="res-items">
@@ -51,6 +55,7 @@
                     </div>
                     <div class="res-items">
                         <label for="country">Number of Guests?</label>
+                        <!-- Dropdown selection for guest  -->
                     <select id="Guests" name="1-20">
                         <option value="two_guests">1</option>
                         <option value="two_guests">2</option>
@@ -70,6 +75,7 @@
                         <textarea id="subject" name="subject" placeholder="Write something.." style="height:70px" style="width:200px"></textarea>
                     </div>
             </div>
+                        <!-- Terms and conditions  -->
                     <div class="terms">
                         <h3>Terms & Conditions</h3>
                         <ol class="ol" style="list-style: none;">
@@ -81,7 +87,7 @@
                         <input class="check" type="checkbox" id="consent" name="consent" value="consent"></input>
                         <label for="consent"><span class="give">I give my consent</span></label>
                         <input class="sub" type="submit" value="Submit">
-            
+                        <!-- Footer  -->
                 <footer class="footer">
                     <section class="cont">
                         <div class="item-1" style="list-style: none;">
@@ -90,7 +96,7 @@
                 
                 </div>
                         <div style="list-style: none;">
-                            <a href"#top">Back to the top</a>
+                            <a href="#top">Back to the top</a>
                         </div>
                         <div class="item-2" style="list-style: none;">
                             <a

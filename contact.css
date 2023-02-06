@@ -1,5 +1,4 @@
-
-
+/* Google font import  */
 @import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
 
 body {
@@ -8,11 +7,11 @@ body {
     font-size: 30px;
 }
 
+/* Background color set  */
 * {
     background-color: #C4A77D;
-    border-style: solid 5px #70877F;
 }
-
+/* Navbar flexbox container  */
 .container {
     display: flex;
     flex-direction: row;
@@ -24,6 +23,7 @@ body {
     width: 100%;
 }
 
+/* Link styling  */
 a {
     text-decoration: none;
     color: black
@@ -32,10 +32,9 @@ a {
 h1 {
     color: black;
     text-align: center;
-    padding-top: 1.25rem;
     margin: auto;
 }
-
+/* Paragraph 1  */
 .p-1 {
 
     text-align: center;
@@ -44,31 +43,15 @@ h1 {
     margin: 0;
 }
 
-.d-container {
-    background-color: #C4A77D;
-    height: 57rem;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.img {
-
-    height: 57rem;
-    width: 40rem;
-}
-
 a:hover {
-    color: #70877F;
+    color: #2F2963;
 }
-
+/* Footer container */
 .cont {
 
     height: 2.3rem;
     width: 100%;
+    padding-top: 20px;
     background-color: #C4A77D;
     display: flex;
     justify-content: space-between
@@ -119,12 +102,10 @@ h3 {
 }
 
 .frame {
-    padding-top: 5rem;
     width: 100%
 }
 
 .p-2-2 {
 
     text-align: center;
-    padding: 0;
 }

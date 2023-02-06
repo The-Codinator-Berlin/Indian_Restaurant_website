@@ -1,3 +1,4 @@
+/* Google font impot */
 @import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
 
 body {
@@ -8,9 +9,10 @@ body {
 
 * {
     background-color:#C4A77D;
-    border-style: solid 5px #70877F;
+    /* border-style: solid 5px #70877F; */
 }
 
+/* Navbar container for all pages  */
 .container {
     display: flex;
     flex-direction: row;
@@ -22,6 +24,8 @@ body {
     width: 100%;
 }
 
+/* Link decoration none */
+
 a {
     text-decoration: none;
     color:black
@@ -29,6 +33,7 @@ a {
     
  }
 
+ /* Heading 1 */
 h1 {
     color: black;
     text-align: center;
@@ -36,6 +41,7 @@ h1 {
     margin: auto;
  }
 
+ /* Paragraph 1 */
 .p-1 {
 
     text-align: center;
@@ -44,7 +50,8 @@ h1 {
     margin: 0;
  }
 
- .d-container {
+ /* Image */
+ .img-container {
    background-color:#C4A77D;
    height: 57rem;
    width: 100%;
@@ -61,10 +68,12 @@ h1 {
     width:40rem;
  }
 
+ /* Link hover  */
 a:hover {
     color:#2F2963;
  }
 
+ /* Footer container  */
  .cont {
 
    height: 2.3rem;
@@ -88,33 +97,22 @@ a:hover {
     
  }
 
+ /* Paragraph 2  */
 .p-2 {
     font-size: 1.4rem;
     text-align: center;
  }
 
+ /* Heading 2  */
  .h2 {
         text-align: center;
  }
 
- h3 {
-    text-align: center;
- }
+ /* Table (Menu)  */
 .table {
    margin-left: auto;
    margin-right: auto;
 }
-
-.home {
-   text-decoration-style: solid 2px black;
-}
-
-.contact-h-1 {
-
-   margin: 0;
-   padding:0;
-}
-
 
 
 

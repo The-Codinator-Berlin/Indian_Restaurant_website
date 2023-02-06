@@ -1,23 +1,16 @@
-/* Style inputs with type="text", select elements and textareas */
+/* Text area  */
 input[type=text],
 select,
+
 textarea {
     width: 40%;
-    /* Full width */
     padding: 12px;
-    /* Some padding */
     border: 0.2rem solid #70877F;
-    /* Gray border */
     border-radius: 28px;
-    /* Rounded borders */
     box-sizing: border-box;
-    /* Make sure that padding and width stays in place */
     margin-top: 8px;
-    /* Add a top margin */
     margin-bottom: 6px;
-    /* Bottom margin */
     resize: horizontal
-        /* Allow the user to horizontally resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
@@ -30,7 +23,7 @@ input[type=submit] {
     cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a diferent color */
+/* When moving the mouse over the submit button, changes to a diferent color */
 input[type=submit]:hover {
     background-color: #2F2963;
 }
@@ -48,7 +41,7 @@ input[type=submit]:hover {
     
 }
 
-/* container items */
+/* Flexbox container / items */
 .res-items {
     height: 100px;
     width: 450px;
@@ -63,14 +56,20 @@ input[type=submit]:hover {
     padding-top: 1rem;
 }
 
+/* give consent  */
 .give {
 font-size: 0.7em;
 }
 
+/* ordered list T&Cs  */
 .ol {
     opacity: 0.6;
 }
 
+/* Footer  */
+.footer {
+    padding-top: 3rem;
+}
 
 
 
