@@ -8,7 +8,7 @@ body {
 }
 
 * {
-    background-color: #C4A77D;
+    background-color: #B01432;
     /* border-style: solid 5px #70877F; */
 }
 
@@ -19,7 +19,7 @@ body {
     justify-content:space-around;
     padding: 0px;
     padding-bottom: 0.3rem;
-    border-bottom: solid 3px #70877F;
+    border-bottom: solid 3px #FFA900;
     margin: 0;
     width: 100%;
 }
@@ -30,17 +30,47 @@ a {
     text-decoration: none;
     color:black
     
-    
  }
 
  /* Heading 1 */
-h1 {
+h1, h2, th {
     color: black;
     text-align: center;
     padding-top: 1.25rem;
     margin: auto;
+    text-shadow: #FFA900 2px 2px;
  }
 
+ h1, h2 {
+  animation: animate 5s 1;
+ }
+
+ /* Animation for headings  */
+@keyframes animate{
+  0%{
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+/* Animation for navbar links  */
+@keyframes button-wobble {
+  from {
+    rotate: 5deg
+  }
+
+  to {
+    rotate: -5deg
+  }
+}
+
+@media (hover: hover) {
+  nav a:hover {
+    animation: button-wobble 0.07s linear;
+  }
+}
  /* Paragraph 1 */
 .p-1 {
 
@@ -52,7 +82,7 @@ h1 {
 
  /* Image */
  .img-container {
-   background-color:#C4A77D;
+   background-color:#B01432;
    height: 57rem;
    width: 100%;
    display: flex;
@@ -66,12 +96,15 @@ h1 {
 
     height:57rem;
     width:40rem;
+    border: #FFA900 solid 4px;
+    border-radius: 8px;
+    box-shadow: black 4px 4px 10px;
  }
 
  /* Link hover  */
  @media only screen and (hover) {
 a:hover {
-    color:#2F2963;
+    color:#FFA900;
  }
 
  /* Footer container  */
@@ -79,7 +112,7 @@ a:hover {
 
    height: 2.3rem;
    width: 100%;
-   background-color:#C4A77D;
+   background-color:#B01432;
    display: flex;
    justify-content:space-between
    
@@ -88,7 +121,7 @@ a:hover {
  .item-1 {
    height:2.3rem;
    
-   background-color:#C4A77D
+   background-color:#B01432
    
  }
 

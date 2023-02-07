@@ -12,11 +12,15 @@
     padding-left: 6rem;
 }
 
+/* Youtube Video boxes  */
 .vid-1, .vid-2, .vid-3 {
     height: auto;
     width: auto;
     justify-content: center;
-    border: 4px solid #70877F;
+    border: 4px solid #FFA900;
+    border-radius: 8px;
+    box-shadow: black 4px 4px 10px;
+    
 }
 /* H6 heading  */
 .h-6 {

@@ -9,7 +9,7 @@ body {
 
 /* Background color set  */
 * {
-    background-color: #C4A77D;
+    background-color: #B01432;
 }
 /* Navbar flexbox container  */
 .container {
@@ -18,7 +18,7 @@ body {
     justify-content: space-around;
     padding: 0px;
     padding-bottom: 0.3rem;
-    border-bottom: solid 3px #70877F;
+    border-bottom: solid 3px #FFA900;
     margin: 0;
     width: 100%;
 }
@@ -32,7 +32,7 @@ a {
 h1 {
     color: black;
     text-align: center;
-    margin: auto;
+    margin: auto;text-shadow: #FFA900 2px 2px;
 }
 /* Paragraph 1  */
 .p-1 {
@@ -44,7 +44,7 @@ h1 {
 }
 
 a:hover {
-    color: #2F2963;
+    color: #FFA900;
 }
 /* Footer container */
 .cont {
@@ -52,21 +52,18 @@ a:hover {
     height: 2.3rem;
     width: 100%;
     padding-top: 20px;
-    background-color: #C4A77D;
+    background-color: #B01432;
     display: flex;
     justify-content: space-between
 }
 
 .item-1 {
     height: 2.3rem;
-
-    background-color: #C4A77D
+    background-color: #B01432
 }
 
 .item-2 {
     height: 2.3rem;
-
-
 }
 
 .p-2 {
@@ -108,4 +105,19 @@ h3 {
 .p-2-2 {
 
     text-align: center;
+}
+/* Animation for headings  */
+h1
+     {
+    animation: animate 5s 1;
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
