@@ -147,6 +147,24 @@ a:hover {
    margin-left: auto;
    margin-right: auto;
 }
+/* Survey  */
+fieldset {
+  text-align: center;
+  border: 0;
+}
 
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #27AE60;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
+/* When moving the mouse over the submit button, changes to a diferent color */
+input[type=submit]:hover {
+  background-color: #2F2963;
+}
   

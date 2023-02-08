@@ -1,4 +1,4 @@
-/* Text area  */
+/* Text areas   */
 input[type=text],
 select,
 
@@ -69,6 +69,10 @@ font-size: 0.7em;
 /* Footer  */
 .footer {
     padding-top: 3rem;
+}
+/* H1 heading  */
+.res-head {
+    padding-bottom: 2rem;
 }
 
 
